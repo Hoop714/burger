@@ -1,0 +1,33 @@
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Notable', sans-serif;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px yellow;
+}
+
+h2 {
+    font-family: 'Notable', sans-serif;
+    font-family: 'Black And White Picture', sans-serif;
+    color: yellow;
+}
+
+form {
+    font-family: 'Notable', sans-serif;
+    font-family: 'Black And White Picture', sans-serif;
+    color: yellow;
+}
+
+#form {
+    align-content: center;
+}
+
+#burgers, #burgers-devoured {
+    color: white;
+}
