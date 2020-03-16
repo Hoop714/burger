@@ -1,6 +1,10 @@
+.jumbotron {
+    background-color: rgba(0, 128, 0, 0.603);
+    
+}
 
 body {
-    background-color: black;
+    background-color: rgba(251, 255, 0, 0.603);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -9,25 +13,32 @@ body {
 h1 {
     font-family: 'Notable', sans-serif;
     color: whitesmoke;
-    text-shadow: 2px 2px 2px yellow;
+    text-shadow: 2px 2px 2px green;
+    text-align: center;
 }
 
 h2 {
     font-family: 'Notable', sans-serif;
     font-family: 'Black And White Picture', sans-serif;
-    color: yellow;
+    color: rgba(0, 128, 0, 0.603);
+    text-align: center;
 }
 
 form {
     font-family: 'Notable', sans-serif;
     font-family: 'Black And White Picture', sans-serif;
-    color: yellow;
+    color: rgba(0, 128, 0, 0.603);
+    text-align: center;
 }
 
 #form {
     align-content: center;
+    text-align: center;
 }
 
-#burgers, #burgers-devoured {
-    color: white;
+#burgers, #burger, #burgers-devoured {
+    font-family: 'Notable', sans-serif;
+    font-family: 'Black And White Picture', sans-serif;
+    color: black;
+    text-align: center;
 }

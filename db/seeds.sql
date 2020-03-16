@@ -1,2 +1,2 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ("Bison Burger", true);
-INSERT INTO burgers (burger_name, devoured) VALUES ("Mushroom Burger", true);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Big Mac", true);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Whopper", true);
