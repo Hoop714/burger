@@ -1,32 +1,33 @@
 .jumbotron {
-    background-color: rgba(0, 128, 0, 0.603);
+    background-color: rgba(0, 128, 0, 0.89);
     
 }
 
 body {
     background-color: rgba(251, 255, 0, 0.603);
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/589/609/original/pixel-art-cheeseburger-seamless-background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-h1 {
+/* h1 {
     font-family: 'Notable', sans-serif;
     color: whitesmoke;
     text-shadow: 2px 2px 2px green;
     text-align: center;
-}
+} */
 
 h2 {
-    font-family: 'Notable', sans-serif;
-    font-family: 'Black And White Picture', sans-serif;
+    /* font-family: 'Notable', sans-serif;
+    font-family: 'Black And White Picture', sans-serif; */
     color: rgba(0, 128, 0, 0.603);
     text-align: center;
 }
 
 form {
-    font-family: 'Notable', sans-serif;
-    font-family: 'Black And White Picture', sans-serif;
+    /* font-family: 'Notable', sans-serif;
+    font-family: 'Black And White Picture', sans-serif; */
     color: rgba(0, 128, 0, 0.603);
     text-align: center;
 }
@@ -37,8 +38,27 @@ form {
 }
 
 #burgers, #burger, #burgers-devoured {
-    font-family: 'Notable', sans-serif;
-    font-family: 'Black And White Picture', sans-serif;
     color: black;
     text-align: center;
 }
+
+.container-heading {
+    text-align: center;
+    transform: translate(-1%, -1%);
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+      1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+      5px 13px 15px black;
+      font-family: 'Notable', sans-serif;
+      color: whitesmoke;
+      text-shadow: 2px 2px 2px green;
+  }
+  
+  .container-heading:hover {
+    transition:   0.3s;
+    transform: scale(1.1)translate(-1%, -1%);
+    text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+      1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+      1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+  }
